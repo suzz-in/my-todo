@@ -1,0 +1,40 @@
+.form_container {
+    background-color: #eee;
+    border-radius: 12px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.input_container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+
+input {
+    border: none;
+    border-radius: 12px;
+
+    height: 40px;
+width: 240;
+padding: 0 12px;
+
+}
+
+.input_container > button {
+background-color: teal;
+bottom: none;
+border-radius: 10px;
+color: #fff;
+font-weight: 700;
+height: 40px;
+width: 140px;
+}
+
+.input_container > button:hover {
+    cursor: pointer;
+
+    width: calc(15%);
+}
